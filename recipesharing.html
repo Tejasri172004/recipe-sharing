@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Recipe Sharing </h1>
+    </header>
+
+    <nav>
+        <input type="text" id="search" placeholder="Search for recipes...">
+    </nav>
+
+    <main>
+      
+        <section id="recipe-form">
+            <h2>Add a New Recipe</h2>
+            <form id="add-recipe-form">
+                <input type="text" id="title" placeholder="Recipe Title" required>
+                <input type="url" id="image" placeholder="Image URL" required>
+                <textarea id="ingredients" placeholder="Ingredients (comma separated)" required></textarea>
+                <textarea id="steps" placeholder="Steps" required></textarea>
+                <select id="category">
+                    <option value="Dessert">Dessert</option>
+                    <option value="Main Course">Main Course</option>
+                    <option value="Appetizer">Appetizer</option>
+                </select>
+                <button type="submit">Add Recipe</button>
+            </form>
+        </section>
+        <section id="recipes">
+            <h2>Recipes</h2>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

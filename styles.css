@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  background-image: url("https://img.freepik.com/premium-photo/italian-food-background-italian-cuisine-ingredients-dark-background-cooking-concept-cooking-background_407474-10517.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background-image: url("https://img.freepik.com/premium-photo/top-view-dark-background-with-cooking-ingredients-copyspace-ai-generative-illustration_110488-2842.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav input {
+  padding: 0.5rem;
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+main {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#recipe-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea, form select, form button {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #e04e4e;
+}
+
+#recipes {
+  margin-top: 20px;
+}
+#recipes h2{
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 2px;
+  color: black;
+
+}
+.recipe-card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.star {
+  font-size: 20px;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.star.selected {
+  color: gold;
+}
+
+.comments-section {
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.comment-input {
+  width: calc(100% - 60px);
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.comment-btn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-btn:hover {
+  background-color: #e04e4e;
+}
